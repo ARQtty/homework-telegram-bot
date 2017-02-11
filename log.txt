@@ -1,21 +1,5 @@
-2017-02-11 16:26:58 - Ilya - sended LOG
-2017-02-11 16:27:09 - Ilya - send a "/hz"
+# log example
 2017-02-11 16:27:32 - Ilya - send a "qfedvsf"
 2017-02-11 16:27:49 - Ilya - called homework for "Physics"
-2017-02-11 16:28:04 - Ilya - send a "2"
-2017-02-11 16:28:13 - Ilya - send a "deeee - 02-02"
-2017-02-11 16:28:29 - Ilya - send a "deeee - 02-02"
-2017-02-11 16:28:39 - Ilya - send a "deeee - 02-01"
-2017-02-11 16:28:52 - Ilya - send a "2"
-2017-02-11 16:28:58 - Ilya - send a "deeee - 02-01"
-2017-02-11 16:29:26 - Ilya - send a "deeee - 02-01"
-2017-02-11 16:29:30 - Ilya - send a "2"
-2017-02-11 16:29:36 - Ilya - send a "deee - 01-31"
-2017-02-11 16:29:37 - Ilya - Append event DEEE - tuesday - 2017-01-31
 2017-02-11 16:29:41 - Ilya - called events
-2017-02-11 16:30:18 - Ilya - called todayHW
 2017-02-11 16:30:20 - Ilya - called "what's tomorrow?"
-2017-02-11 16:30:29 - Ilya - send a "😐"
-2017-02-11 16:30:42 - Ilya - send a photo
-2017-02-11 16:31:00 - Ilya - send a sticker
-2017-02-11 16:31:16 - Ilya - send weather
