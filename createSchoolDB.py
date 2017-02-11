@@ -1,7 +1,7 @@
 import sqlite3
 import datetime as dt
 
-conn = sqlite3.connect('chozadano/subjects.sqlite')
+conn = sqlite3.connect('homework-telegram-bot/subjects.sqlite')
 cursor = conn.cursor()
 cursor.execute('''CREATE TABLE IF NOT EXISTS events (eventName VARCHAR, weekDay VARCHAR, deadline DATE)''')
 cursor.execute('''CREATE TABLE IF NOT EXISTS subjects (SubjName VARCHAR, weekDay VARCHAR, dateToExec VARCHAR, homework VARCHAR)''')
@@ -11,11 +11,11 @@ cursor.close()
 conn.close()
 
 
-conn = sqlite3.connect('chozadano/log_table.sqlite')
+conn = sqlite3.connect('homework-telegram-bot/log_table.sqlite')
 cursor = conn.cursor()
 cursor.execute('''CREATE TABLE IF NOT EXISTS log (year DATE, mounth DATE, day DATE, hours TIME, minuts TIME, seconds TIME, user VARCHAR, action VARCHAR)''')
 # Transfer log.txt data to DB
-with open('chozadano/log.txt', 'r') as log:
+with open('homework-telegram-bot/log.txt', 'r') as log:
     for line in log:
         line = line.replace('\n','')
         log_info = [str(x) for x in line.split(' - ')]

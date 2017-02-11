@@ -19,7 +19,7 @@ Commands (for bot's administrator):
 
 token = '12345'
 admins_id_list = [000000000]
-log_path = 'chozadano/'
+log_path = 'homework-telegram-bot/'
 bot = telebot.TeleBot(token)
 markup = telebot.types.ReplyKeyboardMarkup()
 subjectsList = ['Chemistry', 'Physics', 'etc']
@@ -50,7 +50,7 @@ def logger(log_message, operation):
 
 def sqlAcces(func):
 	# Used as decorator
-    conn = sqlite3.connect('chozadano/subjects.sqlite')
+    conn = sqlite3.connect('homework-telegram-bot-master/subjects.sqlite')
     cursor = conn.cursor()
     func(conn, cursor)    # conn for commits and cursor
     cursor.close()
@@ -295,7 +295,7 @@ def weathrResponse(message):
 def addevent(message):
     if message.from_user.id in admins_id_list:
     	# TODO: make remove by min date
-        bot.send_message(message.chat.id, 'Remov last event/add new event? [1/2]', reply_markup=None)
+        bot.send_message(message.chat.id, 'Remove last event/add new event? [1/2]', reply_markup=None)
         def defineAction(message):
             if message.text == '1':
                 @sqlAcces
@@ -439,4 +439,3 @@ while True:
             log.write(now + ' - server - Error!(%s)\n' % e)
         sleep(7)
         continue
-'''
