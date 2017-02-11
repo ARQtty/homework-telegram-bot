@@ -35,3 +35,7 @@ First run:
 - /noHW - erase homework for any subjects
 - /getlog - bot sends temporary log
 
+##Examples
+
+![Example1](https://github.com/ARQtty/homework-telegram-bot/raw/master/src/p1.png "")
+![Example2](https://github.com/ARQtty/homework-telegram-bot/raw/master/src/p2.png "")
