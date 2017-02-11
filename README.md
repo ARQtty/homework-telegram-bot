@@ -20,7 +20,9 @@ Download the bot:
 (or download the [.zip](https://github.com/ARQtty/homework-telegram-bot/archive/master.zip))
 
 First run:
+
 `python3 homework-telegram-bot-master/createSchoolDB.py`
+
 `python3 homework-telegram-bot-master/schoolBot.py`
 
 ##Functions
