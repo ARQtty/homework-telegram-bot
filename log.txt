@@ -1,5 +1,0 @@
-# log example
-2017-02-11 16:27:32 - Ilya - send a "qfedvsf"
-2017-02-11 16:27:49 - Ilya - called homework for "Physics"
-2017-02-11 16:29:41 - Ilya - called events
-2017-02-11 16:30:20 - Ilya - called "what's tomorrow?"
