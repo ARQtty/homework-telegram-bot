@@ -1,15 +1,16 @@
 # homework-telegram-bot
 ##About
-Simple API for creating an easy-to-use telegram bot, which sending:
+Простой в настойке и использовании телеграм-бот для записи и шейринга домашнего задания и школьных событий:
 
-- Homework for today
-- Homework for tomorrow
-- Homework on a particular subject
-- Upcoming Events
-- Weather forecast
+Функции:
+- ДЗ на сегодня
+- ДЗ на завтра
+- ДЗ на выбранный предмет
+- Предстоящие события
+- Погода
 
 ##Installation
-Requires:
+Зависимости:
 
 - Python3
 - PyTelegramBotAPI
@@ -19,23 +20,20 @@ Download the bot:
 `https://github.com/ARQtty/homework-telegram-bot.git`
 (or download the [.zip](https://github.com/ARQtty/homework-telegram-bot/archive/master.zip))
 
-First run:
+Запуск:
 
-`python3 homework-telegram-bot-master/createSchoolDB.py`
-
-`python3 homework-telegram-bot-master/schoolBot.py`
+`python3 homework-telegram-bot-master/bot.py`
 
 ##Functions
 
-####In bot:
+####Работа с ботом:
 
-- /addhomework - add HW for any subject
-- /weather - send actual weather for all users
-- /addevent - add new event
-- /noHW - erase homework for any subjects
-- /getlog - bot sends temporary log
+- /addhomework - Добавить ДЗ на один из предметов
+- /addevent - Добавить новое событие или удалить самое старое из событий
+- /hz - Стереть ДЗ по одному из предметов
+Все функции доступны только администратору
 
 ##Examples
 
-![Example1](https://github.com/ARQtty/homework-telegram-bot/raw/master/src/p1.png "")
-![Example2](https://github.com/ARQtty/homework-telegram-bot/raw/master/src/p2.png "")
+![Example1](https://github.com/ARQtty/homework-telegram-bot/raw/master/srceenshots/p1.png "")
+![Example2](https://github.com/ARQtty/homework-telegram-bot/raw/master/srceenshots/p2.png "")
