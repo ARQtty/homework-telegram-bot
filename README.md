@@ -1,5 +1,5 @@
 # homework-telegram-bot
-##About
+## About
 Простой в настойке и использовании телеграм-бот для записи и шейринга домашнего задания и школьных событий:
 
 Функции:
@@ -9,7 +9,7 @@
 - Предстоящие события
 - Погода
 
-##Installation
+## Installation
 Зависимости:
 
 - Python3
@@ -24,16 +24,16 @@ Download the bot:
 
 `python3 homework-telegram-bot-master/bot.py`
 
-##Functions
+## Functions
 
-####Работа с ботом:
+#### Работа с ботом:
 
 - /addhomework - Добавить ДЗ на один из предметов
 - /addevent - Добавить новое событие или удалить самое старое из событий
 - /hz - Стереть ДЗ по одному из предметов
 Все функции доступны только администратору
 
-##Examples
+## Examples
 
 ![Example1](https://github.com/ARQtty/homework-telegram-bot/raw/master/srceenshots/p1.png "")
 ![Example2](https://github.com/ARQtty/homework-telegram-bot/raw/master/srceenshots/p2.png "")
