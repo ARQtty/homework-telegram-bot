@@ -16,9 +16,9 @@
 - PyTelegramBotAPI
 - sqlite3
 
-Download the bot:
+Исходный код:
 `https://github.com/ARQtty/homework-telegram-bot.git`
-(or download the [.zip](https://github.com/ARQtty/homework-telegram-bot/archive/master.zip))
+(скачать zip-архивом [.zip](https://github.com/ARQtty/homework-telegram-bot/archive/master.zip))
 
 Запуск:
 
@@ -37,3 +37,4 @@ Download the bot:
 
 ![Example1](https://github.com/ARQtty/homework-telegram-bot/raw/master/srceenshots/p1.png "")
 ![Example2](https://github.com/ARQtty/homework-telegram-bot/raw/master/srceenshots/p2.png "")
+![Example3](https://github.com/ARQtty/homework-telegram-bot/raw/master/srceenshots/p3.png "")
