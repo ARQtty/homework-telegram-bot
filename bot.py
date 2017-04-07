@@ -10,7 +10,7 @@ import json
 import telebot
 
 
-token = '362217833:AAHAd6fT3RnG34vtam0T4fDS3RQWgEjIhCw'
+token = ''
 bot = telebot.TeleBot(token)
 markup = telebot.types.ReplyKeyboardMarkup()
 
